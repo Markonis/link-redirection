@@ -1,0 +1,9 @@
+CREATE TABLE link_clicks (
+  id SERIAL PRIMARY KEY,
+  timestamp TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  slug VARCHAR(255) NOT NULL,
+  country VARCHAR(2) NOT NULL,
+  tags VARCHAR[] NOT NULL,
+  resolved_url VARCHAR(255) NOT NULL,
+  video_id VARCHAR(255)
+);
