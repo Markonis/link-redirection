@@ -9,3 +9,5 @@ dist/
 
 # IDE/Editor specific files
 .vscode/
+
+.yarn-error.log
