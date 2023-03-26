@@ -10,6 +10,7 @@
 		"start": "yarn ts-node src/index.ts"
 	},
 	"dependencies": {
+		"@types/geoip-lite": "^1.4.1",
 		"express": "^4.18.2",
 		"geoip-lite": "^1.4.7",
 		"pg": "^8.10.0",
