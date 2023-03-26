@@ -52,3 +52,74 @@ The above are the basic requirements, please ask any clarifying questions before
 ---
 
 Before we continue what would be a good .gitignore file for this project?
+
+---
+
+Ok, let's continue I had to make a short break :)
+
+---
+
+Can you continue from the beginning of src/index.ts
+
+---
+
+Before we continue, let's address the following: I will provide you with a list of country codes that I would like to support with this service. However, some of those countries do not have their own amazon store. So we should create a mapping for each of the country codes that I will provide to a country code that actually has an amazon store. For each country that doesn't have it's own store, we should choose the amazon store in the same geographic region. And then let's make sure to use this mapping in the endpoint.
+
+Here is a list of the country codes that I would like to support:
+
+US
+IN
+DE
+BR
+RU
+GB
+PL
+CA
+TR
+IT
+ES
+ID
+UA
+VN
+FR
+JP
+PH
+NL
+AU
+RO
+MX
+PT
+SE
+TH
+MY
+CZ
+PK
+BD
+MA
+SG
+AR
+
+---
+
+Do you know which countries have amazon stores?
+
+---
+
+Can you use this list of known countries with amazon stores to update the mapping so that countries that do not have their own amazon stores are mapped to the ones that do that are in the same geographic region?
+
+---
+
+Ok, can you show me how to use this mapping in the endpoint?
+
+---
+
+Ok, let's. continue with saving this info in postgres
+
+---
+
+continue from src/index.ts
+
+---
+
+how can I query this table in psql?
+
