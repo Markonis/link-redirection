@@ -3,6 +3,7 @@ import { extractRequestInfo } from './middleware';
 import { linkDefinitions, fallbackDefinition, LinkDefinition } from './link-definitions';
 import { countryMapping } from './country-mapping';
 import { logLinkClick } from './db';
+import cors from "cors";
 
 const app = express();
 const port = process.env.PORT || 3000;
@@ -18,6 +19,7 @@ declare global {
 }
 
 app.use(extractRequestInfo);
+app.use(cors({}));
 
 app.get('/:slug', async (req: Request, res) => {
 	const { slug } = req.params;
