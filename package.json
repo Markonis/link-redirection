@@ -20,6 +20,8 @@
   "homepage": "https://github.com/Developer-openspace/link-redirection#readme",
   "dependencies": {
     "@types/geoip-lite": "^1.4.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "geoip-lite": "^1.4.7",
     "pg": "^8.10.0",
