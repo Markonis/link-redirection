@@ -51,7 +51,7 @@ export const linkDefinitions: LinkDefinition[] = [
 		}
 	},
 	{
-		slug: 'sony-earbuds',
+		slug: 'earbuds',
 		tags: ['earbuds'],
 		links: {
 			US: 'https://amzn.to/3RYEVUx'
@@ -72,28 +72,28 @@ export const linkDefinitions: LinkDefinition[] = [
 		}
 	},
 	{
-		slug: 'max-anywhere-2s',
+		slug: 'productivity-mouse',
 		tags: ['mouse'],
 		links: {
 			US: 'https://amzn.to/3OJEEoD'
 		}
 	},
 	{
-		slug: 'bose-headphones',
+		slug: 'headphones',
 		tags: ['headphones'],
 		links: {
 			US: 'https://amzn.to/3IGTP0X'
 		}
 	},
 	{
-		slug: 'mx-mechanical-mini',
+		slug: 'productivity-keyboard',
 		tags: ['keyboard'],
 		links: {
 			US: 'https://amzn.to/3Hw7k2B'
 		}
 	},
 	{
-		slug: 'led-cube-clock',
+		slug: 'led-matrix-clock',
 		tags: ['clock', 'bluetooth-speaker', 'desk-accessory'],
 		links: {
 			US: 'https://amzn.to/3zIKwHO'
@@ -114,7 +114,7 @@ export const linkDefinitions: LinkDefinition[] = [
 		}
 	},
 	{
-		slug: 'type',
+		slug: 'typing-game',
 		tags: ['game', 'project'],
 		links: {
 			US: 'https://type.withmarko.com'
