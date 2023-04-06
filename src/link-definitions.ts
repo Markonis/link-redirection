@@ -112,6 +112,13 @@ export const linkDefinitions: LinkDefinition[] = [
 		links: {
 			US: 'https://withmarko.com/one-menu'
 		}
+	},
+	{
+		slug: 'type',
+		tags: ['game', 'project'],
+		links: {
+			US: 'https://type.withmarko.com'
+		}
 	}
 ];
 
