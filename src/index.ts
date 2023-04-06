@@ -3,8 +3,15 @@ import { extractRequestInfo } from './middleware';
 import { linkDefinitions, fallbackDefinition, LinkDefinition } from './link-definitions';
 import { countryMapping } from './country-mapping';
 import { logLinkClick } from './db';
+import { useTreblle } from 'treblle';
 
 const app = express();
+
+useTreblle(app, {
+	apiKey: process.env.TREBLLE_API_KEY,
+	projectId: process.env.TREBLLE_PROJECT_ID,
+})
+
 const port = process.env.PORT || 3000;
 
 // Add custom properties to the Request object
