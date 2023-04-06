@@ -105,6 +105,13 @@ export const linkDefinitions: LinkDefinition[] = [
 		links: {
 			US: 'https://github.com/Markonis'
 		}
+	},
+	{
+		slug: 'one-menu',
+		tags: ['one-menu'],
+		links: {
+			US: 'https://withmarko.com/one-menu'
+		}
 	}
 ];
 
