@@ -98,6 +98,13 @@ export const linkDefinitions: LinkDefinition[] = [
 		links: {
 			US: 'https://amzn.to/3zIKwHO'
 		}
+	},
+	{
+		slug: 'github',
+		tags: ['github'],
+		links: {
+			US: 'https://github.com/Markonis'
+		}
 	}
 ];
 
