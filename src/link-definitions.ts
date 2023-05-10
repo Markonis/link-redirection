@@ -119,6 +119,13 @@ export const linkDefinitions: LinkDefinition[] = [
         links: {
             US: 'https://type.withmarko.com'
         }
+    },
+    {
+        slug: 'boox',
+        tags: ['tablet'],
+        links: {
+            US: 'https://shop.boox.com/?ref=gisG1RQxpV9suI'
+        }
     }
 ];
 
