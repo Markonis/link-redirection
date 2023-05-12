@@ -10,6 +10,10 @@ export const extractRequestInfo = (req: Request, res: Response, next: NextFuncti
 	const geo = geoip.lookup(ipString);
 	req.country = geo ? geo.country : 'US';
 
+	if (req.query.debug) {
+		console.log(`${req.url} ${ip} ${req.country}`);
+	}
+
 	// Extract video ID
 	const videoId = req.query.v;
 	if (videoId && typeof videoId === 'string') {
