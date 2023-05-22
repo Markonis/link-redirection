@@ -138,6 +138,20 @@ export const linkDefinitions: LinkDefinition[] = [
 		links: {
 			DEFAULT: 'https://shop.boox.com/?ref=gisG1RQxpV9suI'
 		}
+	},
+	{
+		slug: 'pdf-element',
+		tags: ['sponsored', 'software'],
+		links: {
+			DEFAULT: 'https://bit.ly/3KO53zQ'
+		}
+	},
+	{
+		slug: 'pdf-element-mobile',
+		tags: ['sponsored', 'software'],
+		links: {
+			DEFAULT: 'https://bit.ly/40hrnrp'
+		}
 	}
 ];
 
