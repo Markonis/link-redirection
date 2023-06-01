@@ -152,7 +152,55 @@ export const linkDefinitions: LinkDefinition[] = [
 		links: {
 			DEFAULT: 'https://bit.ly/40hrnrp'
 		}
-	}
+	},
+	{
+		slug: 'microphone',
+		tags: ['microphone'],
+		links: {
+			DE: 'https://amzn.to/3WHWRqH',
+			DEFAULT: 'https://amzn.to/43gl0qL'
+		}
+	},
+	{
+		slug: 'audio-interface',
+		tags: ['audio'],
+		links: {
+			DE: 'https://amzn.to/42yxMjn',
+			DEFAULT: 'https://amzn.to/43DDKAo'
+		}
+	},
+	{
+		slug: 'cloud-lifter',
+		tags: ['audio'],
+		links: {
+			DE: 'https://amzn.to/3qhPaex',
+			DEFAULT: 'https://amzn.to/3oIkRgI'
+		}
+	},
+	{
+		slug: 'main-camera',
+		tags: ['camera'],
+		links: {
+			DE: 'https://amzn.to/43xjn7I',
+			DEFAULT: 'https://amzn.to/43dr6bk'
+		}
+	},
+	{
+		slug: 'main-lens',
+		tags: ['lens'],
+		links: {
+			DE: 'https://amzn.to/3qoFVJK',
+			DEFAULT: 'https://amzn.to/3WIW08Y'
+		}
+	},
+	{
+		slug: 'phone',
+		tags: ['phone'],
+		links: {
+			DE: 'https://amzn.to/3MDy4iQ',
+			DEFAULT: 'https://amzn.to/3C8eIO0'
+		}
+	},
 ];
 
 export const fallbackDefinition: LinkDefinition = {
